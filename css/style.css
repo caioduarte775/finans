@@ -1,0 +1,75 @@
+#navMain ul li{
+	margin-right: 20px;
+}
+
+#navMain ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	color: #FFF;
+}
+
+footer nav ul li{
+	margin-right: 20px;
+}
+
+footer nav ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	color: #000;
+}
+
+button:hover{
+	transition: .5s;
+}
+
+@media (max-width: 768px){
+	#navMain ul li a:hover{
+		font-size: 14.5px;
+	}
+	footer nav ul li a:hover{
+		font-size: 14.5px;
+	}
+}
+
+@media (min-width: 992px){
+	#navMain ul li a:hover{
+		border-bottom: 2px solid #FFF;
+	}
+	footer nav ul li a:hover{
+		border-bottom: 2px solid #000;
+	}
+}
+
+@media (max-width: 767px) {
+    .hidden-xs {
+        display: none!important
+    }
+}
+@media (min-width: 768px)and (max-width: 991px) {
+    .hidden-sm {
+        display: none!important
+    }
+}
+@media (min-width: 992px)and (max-width: 1199px) {
+    .hidden-md {
+        display: none!important
+    }
+}
+@media (min-width: 1200px) {
+    .hidden-lg {
+        display: none!important
+    }
+}
+
+#home{
+	background: #ffc107;
+	color: #FFF;
+}
+
+.caixa{
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
